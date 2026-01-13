@@ -15,9 +15,7 @@ import {
     ChartBarIcon,
     XMarkIcon
 } from '@heroicons/react/24/outline';
-import { IRFP } from '@/models/RFP';
-import { IVendor } from '@/models/Vendor';
-import { IProposal } from '@/models/Proposal';
+import { IRFP, IVendor, IProposal } from '@/types';
 
 type TabType = 'overview' | 'vendors' | 'proposals';
 

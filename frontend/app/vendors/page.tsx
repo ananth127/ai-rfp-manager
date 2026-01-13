@@ -5,7 +5,7 @@ import api from '@/lib/api';
 import Modal from '@/components/Modal';
 import TagInput from '@/components/TagInput';
 import { PlusIcon, UserGroupIcon, EnvelopeIcon, TagIcon, CheckBadgeIcon, PencilSquareIcon, TrashIcon, ExclamationTriangleIcon } from '@heroicons/react/24/solid';
-import { IVendor } from '@/models/Vendor';
+import { IVendor } from '@/types';
 
 export default function VendorList() {
     const [vendors, setVendors] = useState<IVendor[]>([]);

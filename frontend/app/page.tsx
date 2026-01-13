@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import api from '@/lib/api';
 import { DocumentTextIcon, CalendarIcon, CurrencyDollarIcon, SparklesIcon, ClockIcon } from '@heroicons/react/24/outline';
-import { IRFP } from '@/models/RFP';
+import { IRFP } from '@/types';
 
 const statusStyles: Record<string, string> = {
     draft: 'bg-gradient-to-r from-slate-500 to-gray-600 text-white shadow-slate-300',

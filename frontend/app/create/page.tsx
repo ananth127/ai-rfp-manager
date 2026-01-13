@@ -4,7 +4,7 @@ import { useState } from 'react';
 import api from '@/lib/api';
 import { useRouter } from 'next/navigation';
 import { SparklesIcon, ArrowRightIcon, CheckCircleIcon, LightBulbIcon, CurrencyDollarIcon, CalendarIcon } from '@heroicons/react/24/solid';
-import { IRFP } from '@/models/RFP';
+import { IRFP } from '@/types';
 
 export default function CreateRFP() {
     const [input, setInput] = useState('');

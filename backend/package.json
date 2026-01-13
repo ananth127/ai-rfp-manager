@@ -2,10 +2,12 @@
   "name": "rfp-backend",
   "version": "1.0.0",
   "description": "Backend for RFP System",
-  "main": "src/index.js",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "lint": "echo 'No linting yet'"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
